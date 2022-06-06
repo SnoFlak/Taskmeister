@@ -1,0 +1,29 @@
+{
+  "name": "taskmeister",
+  "version": "1.0.0",
+  "description": "Taskmeister is an application that is designed to help you manage those easily forgettable things in life.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/index.js",
+    "start": "node ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnoFlak/Taskmeister.git"
+  },
+  "author": "SnoFlak & FearTheDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnoFlak/Taskmeister/issues"
+  },
+  "homepage": "https://github.com/SnoFlak/Taskmeister#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
